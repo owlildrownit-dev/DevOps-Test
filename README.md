@@ -27,13 +27,13 @@
 
 ## Архитектура
 
-Архитектура:
+<p align="center">
+  <img src="docs/Scheme.png" width="900">
+</p>
 
-![Scheme](docs/Scheme.png)
+[Открыть схему в draw.io](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fowlildrownit-dev%2FDevOps-Test%2Fmain%2Fdocs%2FScheme.drawio)
 
-Исходный файл схемы:
-
-[Scheme.drawio](docs/Scheme.drawio)
+[Исходный файл Scheme.drawio](docs/Scheme.drawio)
 
 Deployment поддерживает две реплики приложения.
 
@@ -100,7 +100,7 @@ DevOps-Test/
 приложение возвращает:
 
 ```text
-Hello World
+Hello World!
 ```
 
 Приложение слушает:
@@ -366,7 +366,7 @@ kube/service.yaml
 Создать Service:
 
 ```bash
-kubectl apply -f kubd/service.yaml
+kubectl apply -f kube/service.yaml
 ```
 
 Проверить:
@@ -516,7 +516,7 @@ Deployment содержит две рабочие реплики приложе�
 
 ---
 
-# ОТветы на теоретические вопросы
+# Ответы на теоретические вопросы
 
 Ответы на теоретическую часть тестового задания находятся в отдельном файле:
 
@@ -524,7 +524,7 @@ Deployment содержит две рабочие реплики приложе�
 
 ---
 
-# Полезные комманды
+# Полезные команды
 
 Запуск Minikube:
 
